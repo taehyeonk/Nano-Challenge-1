@@ -14,6 +14,7 @@
 		84C5326C281ABF920041EF07 /* ScrapbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5326B281ABF920041EF07 /* ScrapbookTests.swift */; };
 		84C53276281ABF920041EF07 /* ScrapbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C53275281ABF920041EF07 /* ScrapbookUITests.swift */; };
 		84C53278281ABF920041EF07 /* ScrapbookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C53277281ABF920041EF07 /* ScrapbookUITestsLaunchTests.swift */; };
+		84C53285281AC1070041EF07 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C53284281AC1070041EF07 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		84C53271281ABF920041EF07 /* ScrapbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrapbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C53275281ABF920041EF07 /* ScrapbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapbookUITests.swift; sourceTree = "<group>"; };
 		84C53277281ABF920041EF07 /* ScrapbookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapbookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84C53284281AC1070041EF07 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				84C5325A281ABF910041EF07 /* ScrapbookApp.swift */,
+				84C53284281AC1070041EF07 /* WebView.swift */,
 				84C5325C281ABF910041EF07 /* ContentView.swift */,
 				84C5325E281ABF920041EF07 /* Assets.xcassets */,
 				84C53260281ABF920041EF07 /* Preview Content */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C53285281AC1070041EF07 /* WebView.swift in Sources */,
 				84C5325D281ABF910041EF07 /* ContentView.swift in Sources */,
 				84C5325B281ABF910041EF07 /* ScrapbookApp.swift in Sources */,
 			);
