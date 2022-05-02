@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1001,
+        "name": "iOS 개발",
+        "imageName": "apple",
+    },
+    {
+        "id": 1002,
+        "name": "인공지능",
+        "imageName": "ai",
+    },
+    {
+        "id": 1003,
+        "name": "알고리즘",
+        "imageName": "algorithms",
+    },
+    {
+        "id": 1004,
+        "name": "디자인",
+        "imageName": "paint",
+    },
+    {
+        "id": 1005,
+        "name": "자전거",
+        "imageName": "bike",
+    },
+]
