@@ -1,197 +1,11 @@
 //
-//  MainPageView.swift
+//  ContainerView.swift
 //  Scrapbook
 //
-//  Created by Admin on 2022/04/28.
+//  Created by Admin on 2022/05/02.
 //
 
 import SwiftUI
-
-struct ColorManager {
-    static let mainColor = Color(.systemCyan)
-}
-
-struct MainPageView: View {
-    var body: some View {
-        NavigationView {
-            ScrollView(showsIndicators: false) {
-                ZStack {
-                    Color(.systemGray6).edgesIgnoringSafeArea(.all)
-                    VStack {
-                        HeaderView()
-                        SearchView(text: .constant(""))
-                        CategoryView()
-                            .padding(.vertical, 10)
-                        ContainerView()
-                            .padding(.vertical, 10)
-                    }
-                }
-            }
-            .navigationBarHidden(true)
-            .background(Color(.systemGray6))
-        }
-    }
-}
-
-struct HeaderView: View {
-    var body: some View {
-        HStack {
-            VStack(alignment: .leading) {
-                Text("Logo")
-                    .font(.system(.title, design: .rounded))
-                    .fontWeight(.bold)
-                    .foregroundColor(ColorManager.mainColor)
-                
-            }
-            Spacer()
-            Image("profile")
-                .resizable()
-                .frame(width: 36, height: 36)
-                .clipShape(Circle())
-                .shadow(color: ColorManager.mainColor, radius: 2)
-        }
-        .padding(.horizontal, 30)
-    }
-}
-
-struct SearchView: View {
-    @Binding var text: String
-    
-    @State private var isEditing = false
-    
-    var body: some View {
-        HStack {
-            TextField("Search", text: $text)
-                .foregroundColor(.gray)
-                .font(.system(.subheadline, design: .rounded))
-                .padding(.leading, 20)
-            Spacer()
-            Image(systemName: "magnifyingglass")
-                .font(.system(.title2, design: .rounded))
-                .foregroundColor(ColorManager.mainColor)
-                .padding(.trailing, 20)
-        }
-        .frame(width: 350, height: 54)
-        .background(Color.white)
-        .cornerRadius(14)
-    }
-}
-
-struct CategoryView: View {
-    var body: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
-            LazyHStack() {
-                // iOS 개발
-                VStack {
-                    VStack {
-                        Image("apple")
-                            .resizable()
-                            .renderingMode(.template)
-                            .foregroundColor(.white)
-//                            .foregroundColor(.gray)
-                            .frame(width: 36, height: 36)
-                    }
-                    .frame(width: 60, height: 60)
-                    .background(ColorManager.mainColor)
-//                    .background(.white)
-                    .cornerRadius(10)
-                    Text("iOS 개발")
-                        .font(.system(.caption, design: .rounded))
-                        .fontWeight(.bold)
-                        .foregroundColor(ColorManager.mainColor)
-//                        .foregroundColor(.gray)
-                }
-                // 인공지능
-                VStack {
-                    VStack {
-                        Image("ai")
-                            .resizable()
-                            .renderingMode(.template)
-                            .foregroundColor(.gray)
-                            .frame(width: 36, height: 36)
-                    }
-                    .frame(width: 60, height: 60)
-                    .background(.white)
-                    .cornerRadius(10)
-                    Text("인공지능")
-                        .font(.system(.caption, design: .rounded))
-                        .fontWeight(.bold)
-                        .foregroundColor(.gray)
-                }
-                // 알고리즘
-                VStack {
-                    VStack {
-                        Image("algorithms")
-                            .resizable()
-                            .renderingMode(.template)
-                            .foregroundColor(.gray)
-                            .frame(width: 36, height: 36)
-                    }
-                    .frame(width: 60, height: 60)
-                    .background(.white)
-                    .cornerRadius(10)
-                    Text("알고리즘")
-                        .font(.system(.caption, design: .rounded))
-                        .fontWeight(.bold)
-                        .foregroundColor(.gray)
-                }
-                // 디자인
-                VStack {
-                    VStack {
-                        Image("paint")
-                            .resizable()
-                            .renderingMode(.template)
-                            .foregroundColor(.gray)
-                            .frame(width: 36, height: 36)
-                    }
-                    .frame(width: 60, height: 60)
-                    .background(.white)
-                    .cornerRadius(10)
-                    Text("디자인")
-                        .font(.system(.caption, design: .rounded))
-                        .fontWeight(.bold)
-                        .foregroundColor(.gray)
-                }
-                // 자전거
-                VStack {
-                    VStack {
-                        Image("bike")
-                            .resizable()
-                            .renderingMode(.template)
-                            .foregroundColor(.gray)
-                            .frame(width: 36, height: 36)
-                    }
-                    .frame(width: 60, height: 60)
-                    .background(.white)
-                    .cornerRadius(10)
-                    Text("자전거")
-                        .font(.system(.caption, design: .rounded))
-                        .fontWeight(.bold)
-                        .foregroundColor(.gray)
-                }
-                // --- Test를 위한 추가 start ---
-                VStack {
-                    VStack {
-                        Image("ai")
-                            .resizable()
-                            .renderingMode(.template)
-                            .foregroundColor(.gray)
-                            .frame(width: 36, height: 36)
-                    }
-                    .frame(width: 60, height: 60)
-                    .background(.white)
-                    .cornerRadius(10)
-                    Text("머신러닝")
-                        .font(.system(.caption, design: .rounded))
-                        .fontWeight(.bold)
-                        .foregroundColor(.gray)
-                }
-                // --- Test를 위한 추가 end ---
-            }
-            .padding(.horizontal, 20)
-        }
-    }
-}
 
 struct ContainerView: View {
     var body: some View {
@@ -309,8 +123,11 @@ struct BookmarksView: View {
     }
 }
 
-struct MainPageView_Previews: PreviewProvider {
+struct ContainerView_Previews: PreviewProvider {
     static var previews: some View {
-        MainPageView()
+        ZStack {
+            Color(.systemGray6).edgesIgnoringSafeArea(.all)
+            ContainerView()
+        }
     }
 }
