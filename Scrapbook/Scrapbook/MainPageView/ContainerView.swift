@@ -60,7 +60,7 @@ struct BookmarksView: View {
                             }
                             .frame(width: 280, height: 310)
                             .background(Color.white)
-                            .cornerRadius(30)
+                            .cornerRadius(20)
                         }
                         
                         NavigationLink(destination: WebView(urlToLoad: "https://www.naver.com/")) {
@@ -120,9 +120,9 @@ struct BookmarksView: View {
                                 }
                                 Spacer(minLength: 0)
                             }
-                            .frame(width: 280, height: 300)
+                            .frame(width: 280, height: 310)
                             .background(Color.white)
-                            .cornerRadius(30)
+                            .cornerRadius(20)
                         }
                     }
                     .padding(.horizontal, 20)
