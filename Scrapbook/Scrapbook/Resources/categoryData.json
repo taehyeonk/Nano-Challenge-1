@@ -24,4 +24,9 @@
         "name": "자전거",
         "imageName": "bike",
     },
+        {
+        "id": 1006,
+        "name": "스노우보드",
+        "imageName": "snowboard",
+    },
 ]

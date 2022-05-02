@@ -13,7 +13,7 @@ struct MainPageView: View {
             ScrollView(showsIndicators: false) {
                 ZStack {
                     Color(.systemGray6).edgesIgnoringSafeArea(.all)
-                    VStack {
+                    VStack(alignment: .center, spacing: nil) {
                         HeaderView()
                         SearchView(text: .constant(""))
                         CategoryView()
