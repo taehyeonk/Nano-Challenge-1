@@ -11,7 +11,7 @@ struct CategoryView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHStack() {
-                ForEach(categorys, id: \.self) { category in
+                ForEach(categories, id: \.self) { category in
                     VStack {
                         VStack {
                             category.categoryImage
@@ -33,7 +33,7 @@ struct CategoryView: View {
                     }
                 }
                 // --- Test를 위한 추가 start ---
-                ForEach(categorys) { category in
+                ForEach(categories) { category in
                     VStack {
                         VStack {
                             category.categoryImage
