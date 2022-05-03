@@ -50,7 +50,7 @@ struct BookmarksView: View {
                                             .fontWeight(.medium)
                                             .foregroundColor(.gray)
                                             .multilineTextAlignment(.leading)
-                                            .lineLimit(3)
+                                            .lineLimit(2)
                                     }
                                     .padding(10)
                                     Spacer(minLength: 0)
@@ -58,7 +58,7 @@ struct BookmarksView: View {
                                 Spacer()
 
                             }
-                            .frame(width: 280, height: 310)
+                            .frame(width: 280, height: 300)
                             .background(Color.white)
                             .cornerRadius(20)
                         }
@@ -82,14 +82,14 @@ struct BookmarksView: View {
                                             .fontWeight(.medium)
                                             .foregroundColor(.gray)
                                             .multilineTextAlignment(.leading)
-                                            .lineLimit(3)
+                                            .lineLimit(2)
                                     }
                                     .padding(10)
                                     Spacer(minLength: 0)
                                 }
                                 Spacer(minLength: 0)
                             }
-                            .frame(width: 280, height: 310)
+                            .frame(width: 280, height: 300)
                             .background(Color.white)
                             .cornerRadius(20)
                         }
@@ -113,14 +113,14 @@ struct BookmarksView: View {
                                             .fontWeight(.medium)
                                             .foregroundColor(.gray)
                                             .multilineTextAlignment(.leading)
-                                            .lineLimit(3)
+                                            .lineLimit(2)
                                     }
                                     .padding(10)
                                     Spacer(minLength: 0)
                                 }
                                 Spacer(minLength: 0)
                             }
-                            .frame(width: 280, height: 310)
+                            .frame(width: 280, height: 300)
                             .background(Color.white)
                             .cornerRadius(20)
                         }
