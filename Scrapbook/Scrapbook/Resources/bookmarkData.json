@@ -1,0 +1,197 @@
+[
+    {
+        "id": 1,
+        "name": "iOS 개발",
+        "categoryImageName": "apple",
+        "active": true,
+        "bookmarks": [
+            {
+                "id": 1001,
+                "title": "iOS 개발자를 위한 조언 10가지",
+                "description": "Apple 아무말 치는 중.. 왜냐면 테스트해야하니까 his sample code will result in a horizontal scrollview with rectangles as elements. However as it seems the ScrollView actually clips its content",
+                "url": "https://www.naver.com",
+                "imageName": "ios_01",
+            },
+            {
+                "id": 1002,
+                "title": "몰라몰라",
+                "description": "Apple 아무말 치는 중.. 왜냐면 테스트해야하니까 his sample code will result in a horizontal scrollview with rectangles as elements. However as it seems the ScrollView actually clips its content",
+                "url": "https://www.naver.com",
+                "imageName": "ios_02",
+            },
+            {
+                "id": 1003,
+                "title": "Xcode 모르겠다",
+                "description": "Apple 아무말 치는 중.. 왜냐면 테스트해야하니까 his sample code will result in a horizontal scrollview with rectangles as elements. However as it seems the ScrollView actually clips its content",
+                "url": "https://www.naver.com",
+                "imageName": "ios_03",
+            },
+            {
+                "id": 1004,
+                "title": "SwiftUI 잘하는 방법",
+                "description": "Apple 아무말 치는 중.. 왜냐면 테스트해야하니까 his sample code will result in a horizontal scrollview with rectangles as elements. However as it seems the ScrollView actually clips its content",
+                "url": "https://www.naver.com",
+                "imageName": "ios_04",
+            },
+        ]
+    },
+    {
+        "id": 2,
+        "name": "인공지능",
+        "categoryImageName": "ai",
+        "active": true,
+        "bookmarks": [
+            {
+                "id": 1001,
+                "title": "인공지능신문",
+                "description": "AI 관련 트렌드 및 기사가 올라오는 페이지",
+                "url": "http://www.aitimes.kr/",
+                "imageName": "ai_01",
+            },
+            {
+                "id": 1002,
+                "title": "AIFactory",
+                "description": "AI관련 경진대회 및 세미나가 열리는 웹페이지",
+                "url": "https://aifactory.space/",
+                "imageName": "ai_02",
+            },
+            {
+                "id": 1003,
+                "title": "‘알약’에서 인공지능, 메타버스까지...이스트시큐리티, 기업 공개한다",
+                "description": "이스트시큐리티는 이번 주관사 선정으로 IPO가 본격화된 만큼 성공적인 상장을 위해 기존 사업의 지속적인 확대와 함께 추가 성장 동력 발굴을 위한 활동을 가속화할 방침이다. 구체적으로는 SaaS, 메타버스와 가상자산 보안 영역 등에서 신사업을 추진하고, 이를 위해 투자유치 및 인수합병을 통해 적극적으로 기업 성장에 박차를 가할 계획이다.",
+                "url": "http://www.aitimes.kr/news/articleView.html?idxno=24928",
+                "imageName": "ai_03",
+            },
+            {
+                "id": 1004,
+                "title": "IBK기업은행, 국내 최초 '설명가능한 인공지능' 본격 도입",
+                "description": "IBK기업은행은 AI기술을 해석하여 설명가능한 인공지능(eXplainable AI, 이하“XAI”) 기술을 도입하고, 다양한 금융서비스에 손쉽게 적용할 수 있는 솔루션을 개발했다고",
+                "url": "http://www.aitimes.kr/news/articleView.html?idxno=24903",
+                "imageName": "ai_04",
+            },
+        ]
+    },
+    {
+        "id": 3,
+        "name": "알고리즘",
+        "categoryImageName": "algorithms",
+        "active": true,
+        "bookmarks": [
+            {
+                "id": 1001,
+                "title": "알알알알",
+                "description": "고리즘",
+                "url": "http://www.aitimes.kr/",
+                "imageName": "algorithm_01",
+            },
+            {
+                "id": 1002,
+                "title": "AIFactory",
+                "description": "AI관련 경진대회 및 세미나가 열리는 웹페이지",
+                "url": "https://aifactory.space/",
+                "imageName": "algorithm_02",
+            },
+            {
+                "id": 1003,
+                "title": "‘알약’에서 인공지능, 메타버스까지...이스트시큐리티, 기업 공개한다",
+                "description": "이스트시큐리티는 이번 주관사 선정으로 IPO가 본격화된 만큼 성공적인 상장을 위해 기존 사업의 지속적인 확대와 함께 추가 성장 동력 발굴을 위한 활동을 가속화할 방침이다. 구체적으로는 SaaS, 메타버스와 가상자산 보안 영역 등에서 신사업을 추진하고, 이를 위해 투자유치 및 인수합병을 통해 적극적으로 기업 성장에 박차를 가할 계획이다.",
+                "url": "http://www.aitimes.kr/news/articleView.html?idxno=24928",
+                "imageName": "algorithm_03",
+            },
+            {
+                "id": 1004,
+                "title": "IBK기업은행, 국내 최초 '설명가능한 인공지능' 본격 도입",
+                "description": "IBK기업은행은 AI기술을 해석하여 설명가능한 인공지능(eXplainable AI, 이하“XAI”) 기술을 도입하고, 다양한 금융서비스에 손쉽게 적용할 수 있는 솔루션을 개발했다고",
+                "url": "http://www.aitimes.kr/news/articleView.html?idxno=24903",
+                "imageName": "algorithm_04",
+            },
+        ]
+    },
+    {
+        "id": 4,
+        "name": "디자인",
+        "categoryImageName": "paint",
+        "active": true,
+        "bookmarks": [
+            {
+                "id": 1001,
+                "title": "UX/UI 가이드",
+                "description": "asldkfj;alskdjf;alksdfj;aldksfja;lskdfj",
+                "url": "http://www.aitimes.kr/",
+                "imageName": "design_01",
+            },
+            {
+                "id": 1002,
+                "title": "AIFactory",
+                "description": "AI관련 경진대회 및 세미나가 열리는 웹페이지",
+                "url": "https://aifactory.space/",
+                "imageName": "design_02",
+            },
+            {
+                "id": 1003,
+                "title": "‘알약’에서 인공지능, 메타버스까지...이스트시큐리티, 기업 공개한다",
+                "description": "이스트시큐리티는 이번 주관사 선정으로 IPO가 본격화된 만큼 성공적인 상장을 위해 기존 사업의 지속적인 확대와 함께 추가 성장 동력 발굴을 위한 활동을 가속화할 방침이다. 구체적으로는 SaaS, 메타버스와 가상자산 보안 영역 등에서 신사업을 추진하고, 이를 위해 투자유치 및 인수합병을 통해 적극적으로 기업 성장에 박차를 가할 계획이다.",
+                "url": "http://www.aitimes.kr/news/articleView.html?idxno=24928",
+                "imageName": "design_03",
+            },
+        ]
+    },
+    {
+        "id": 5,
+        "name": "자전거",
+        "categoryImageName": "bike",
+        "active": true,
+        "bookmarks": [
+            {
+                "id": 1001,
+                "title": "픽시 샵",
+                "description": "Fixed asdfliefkworqlwejlkdfjlskdfoqwjlendsa,ldkopqiwejd,.sajfokdsjflsf.as",
+                "url": "http://www.aitimes.kr/",
+                "imageName": "bike_01",
+            },
+            {
+                "id": 1002,
+                "title": "AIFactory",
+                "description": "AI관련 경진대회 및 세미나가 열리는 웹페이지",
+                "url": "https://aifactory.space/",
+                "imageName": "bike_02",
+            },
+            {
+                "id": 1003,
+                "title": "‘알약’에서 인공지능, 메타버스까지...이스트시큐리티, 기업 공개한다",
+                "description": "이스트시큐리티는 이번 주관사 선정으로 IPO가 본격화된 만큼 성공적인 상장을 위해 기존 사업의 지속적인 확대와 함께 추가 성장 동력 발굴을 위한 활동을 가속화할 방침이다. 구체적으로는 SaaS, 메타버스와 가상자산 보안 영역 등에서 신사업을 추진하고, 이를 위해 투자유치 및 인수합병을 통해 적극적으로 기업 성장에 박차를 가할 계획이다.",
+                "url": "http://www.aitimes.kr/news/articleView.html?idxno=24928",
+                "imageName": "bike_03",
+            },
+        ]
+    },
+    {
+        "id": 6,
+        "name": "스노우보드",
+        "categoryImageName": "snowboard",
+        "active": false,
+        "bookmarks": [
+            {
+                "id": 1001,
+                "title": "하이원 스키장 지도",
+                "description": "강원도에 위치하는 하이원 스키장의 코스 지도",
+                "url": "http://www.aitimes.kr/",
+                "imageName": "bike_01",
+            },
+            {
+                "id": 1002,
+                "title": "AIFactory",
+                "description": "AI관련 경진대회 및 세미나가 열리는 웹페이지",
+                "url": "https://aifactory.space/",
+                "imageName": "bike_02",
+            },
+            {
+                "id": 1003,
+                "title": "‘알약’에서 인공지능, 메타버스까지...이스트시큐리티, 기업 공개한다",
+                "description": "이스트시큐리티는 이번 주관사 선정으로 IPO가 본격화된 만큼 성공적인 상장을 위해 기존 사업의 지속적인 확대와 함께 추가 성장 동력 발굴을 위한 활동을 가속화할 방침이다. 구체적으로는 SaaS, 메타버스와 가상자산 보안 영역 등에서 신사업을 추진하고, 이를 위해 투자유치 및 인수합병을 통해 적극적으로 기업 성장에 박차를 가할 계획이다.",
+                "url": "http://www.aitimes.kr/news/articleView.html?idxno=24928",
+                "imageName": "bike_03",
+            },
+        ]
+    },
+]
