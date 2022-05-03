@@ -7,7 +7,7 @@
 
 import Foundation
 
-var categorys: [Category] = load("categoryData.json")
+var categorys: [Category] = load("bookmarkData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

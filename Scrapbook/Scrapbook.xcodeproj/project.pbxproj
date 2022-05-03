@@ -23,7 +23,6 @@
 		84C53293281F5C920041EF07 /* ColorManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C53292281F5C920041EF07 /* ColorManger.swift */; };
 		84C53299281F5EBE0041EF07 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C53298281F5EBE0041EF07 /* Category.swift */; };
 		84C5329B281F5EEA0041EF07 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5329A281F5EEA0041EF07 /* ModelData.swift */; };
-		84C5329F281F60350041EF07 /* categoryData.json in Resources */ = {isa = PBXBuildFile; fileRef = 84C5329E281F60350041EF07 /* categoryData.json */; };
 		84C532A12820B4BB0041EF07 /* bookmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 84C532A02820B4BB0041EF07 /* bookmarkData.json */; };
 /* End PBXBuildFile section */
 
@@ -64,7 +63,6 @@
 		84C53292281F5C920041EF07 /* ColorManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManger.swift; sourceTree = "<group>"; };
 		84C53298281F5EBE0041EF07 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		84C5329A281F5EEA0041EF07 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		84C5329E281F60350041EF07 /* categoryData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = categoryData.json; sourceTree = "<group>"; };
 		84C532A02820B4BB0041EF07 /* bookmarkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bookmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,7 +167,6 @@
 		84C53294281F5D5E0041EF07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				84C5329E281F60350041EF07 /* categoryData.json */,
 				84C532A02820B4BB0041EF07 /* bookmarkData.json */,
 			);
 			path = Resources;
@@ -289,7 +286,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C532A12820B4BB0041EF07 /* bookmarkData.json in Resources */,
-				84C5329F281F60350041EF07 /* categoryData.json in Resources */,
 				84C53262281ABF920041EF07 /* Preview Assets.xcassets in Resources */,
 				84C5325F281ABF920041EF07 /* Assets.xcassets in Resources */,
 			);

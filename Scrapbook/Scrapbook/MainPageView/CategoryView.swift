@@ -14,7 +14,7 @@ struct CategoryView: View {
                 ForEach(categorys, id: \.self) { category in
                     VStack {
                         VStack {
-                            category.image
+                            category.categoryImage
                                 .resizable()
                                 .renderingMode(.template)
                                 .foregroundColor(.white)
@@ -36,7 +36,7 @@ struct CategoryView: View {
                 ForEach(categorys) { category in
                     VStack {
                         VStack {
-                            category.image
+                            category.categoryImage
                                 .resizable()
                                 .renderingMode(.template)
                                 .foregroundColor(.gray)
