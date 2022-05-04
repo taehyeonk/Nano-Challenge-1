@@ -21,7 +21,7 @@ struct BookmarksView: View {
     var cateogry: Category
     
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .leading, spacing: 0) {
             Text(cateogry.name)
                 .font(.system(.title2, design: .rounded))
                 .fontWeight(.bold)
@@ -61,6 +61,8 @@ struct BookmarksView: View {
                             .frame(width: 280, height: 300)
                             .background(Color.white)
                             .cornerRadius(20)
+                            .padding(.vertical, 10)
+                            .shadow(color: .gray.opacity(0.8), radius: 5)
                         }
                     }
                 }
